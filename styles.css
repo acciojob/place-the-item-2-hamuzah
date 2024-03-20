@@ -1,2 +1,29 @@
 
 /* Your CSS Code here. */
+.holder{
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	justify-content:center;
+}
+.item1{
+	width:90px;
+	height:90px;
+	background-color:red;
+	order:2;
+	font-size:30px;
+}
+.item2{
+	width:90px;
+	height:90px;
+	background-color:blue;
+	order:3;
+	font-size:30px;
+}
+.item3{
+	width:90px;
+	height:90px;
+	background-color:green;
+	order:1;
+	font-size:30px;
+}
